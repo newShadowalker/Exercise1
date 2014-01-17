@@ -1,5 +1,6 @@
 #include "Manager.h"
 #include <iostream>
+#include "Employee.h" //added line
 
 Manager::Manager()
    {
