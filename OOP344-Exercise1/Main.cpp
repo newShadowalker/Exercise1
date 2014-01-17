@@ -11,10 +11,10 @@ int main()
    Employee alex(3, "Alex");
    Employee sarah(4, "Sarah");
 
-   dan.setBoss(man);
-   mike.setBoss(man);
-   alex.setBoss(man);
-   sarah.setBoss(man);
+   dan.setBoss(&man); //line was edited
+   mike.setBoss(&man); //line was edited
+   alex.setBoss(&man); //line was edited
+   sarah.setBoss(&man); //line was edited
 
    dan.work(2);
    mike.work(2);
