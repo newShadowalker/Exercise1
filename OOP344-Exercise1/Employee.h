@@ -7,7 +7,7 @@ class Employee
       char* name;
       Manager* boss;
       int hours;
-   protected:
+   //protected: the following should be as public
    public:
       Employee(int id, char* name);
       ~Employee();
