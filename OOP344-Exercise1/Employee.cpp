@@ -47,3 +47,10 @@ int Employee::getID()
    {
    return ID;
    }
+
+/*
+Added missed declared function
+*/
+char* Employee::getName(){
+	return name;
+}
